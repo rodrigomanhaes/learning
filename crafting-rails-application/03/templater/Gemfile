@@ -7,6 +7,10 @@ gem 'rails', '3.0.15'
 
 gem 'sqlite3'
 
+group :test do
+  gem 'capybara', '0.4.0'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
