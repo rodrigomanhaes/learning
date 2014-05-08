@@ -16,5 +16,5 @@ public class Factory {
 
     public static Album albumWithTracks(final Integer trackCount) {
         return new Album(tracks(trackCount));
-    }
+    } 
 }

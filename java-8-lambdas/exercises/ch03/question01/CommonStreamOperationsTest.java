@@ -1,9 +1,11 @@
 package question01;
 
-import static org.junit.Assert.*;
-import static java.util.Arrays.*;
-import static question01.CommonStreamOperations.*;
-import static model.test.Factory.*;
+import static java.util.Arrays.asList;
+import static model.test.Factory.albumWithTracks;
+import static org.junit.Assert.assertEquals;
+import static question01.CommonStreamOperations.addUp;
+import static question01.CommonStreamOperations.albumsWithAtMostTracks;
+import static question01.CommonStreamOperations.namesAndPlaces;
 
 import java.util.stream.Stream;
 
