@@ -1,4 +1,4 @@
-package question02;
+package ch03.question02;
 
 import static model.test.ArtistFactory.engenheirosDoHawaii;
 import static model.test.ArtistFactory.nirvana;

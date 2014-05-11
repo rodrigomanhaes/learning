@@ -1,11 +1,11 @@
-package question01;
+package ch03.question01;
 
 import static java.util.Arrays.asList;
 import static model.test.Factory.albumWithTracks;
 import static org.junit.Assert.assertEquals;
-import static question01.CommonStreamOperations.addUp;
-import static question01.CommonStreamOperations.albumsWithAtMostTracks;
-import static question01.CommonStreamOperations.namesAndPlaces;
+import static ch03.question01.CommonStreamOperations.addUp;
+import static ch03.question01.CommonStreamOperations.albumsWithAtMostTracks;
+import static ch03.question01.CommonStreamOperations.namesAndPlaces;
 
 import java.util.stream.Stream;
 

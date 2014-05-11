@@ -1,4 +1,4 @@
-package question01;
+package ch03.question01;
 
 import static java.util.stream.Collectors.*;
 

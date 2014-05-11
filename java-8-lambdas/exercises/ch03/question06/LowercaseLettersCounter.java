@@ -1,4 +1,4 @@
-package question06;
+package ch03.question06;
 
 public class LowercaseLettersCounter {
     public static long count(final String string) {

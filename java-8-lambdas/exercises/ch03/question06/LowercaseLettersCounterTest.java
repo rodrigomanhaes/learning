@@ -1,4 +1,4 @@
-package question06;
+package ch03.question06;
 
 import static org.junit.Assert.assertEquals;
 

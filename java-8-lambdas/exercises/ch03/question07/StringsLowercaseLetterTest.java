@@ -1,4 +1,4 @@
-package question07;
+package ch03.question07;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
 

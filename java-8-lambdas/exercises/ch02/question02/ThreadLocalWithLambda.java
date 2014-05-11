@@ -1,4 +1,4 @@
-package question02;
+package ch02.question02;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

@@ -1,4 +1,4 @@
-package question02;
+package ch03.question02;
 
 import java.util.List;
 import java.util.stream.Stream;
