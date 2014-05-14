@@ -1,1 +1,3 @@
-bin/
+java-8-lambdas/bin/
+java-8-lambdas/target/
+java-8-lambdas/build
