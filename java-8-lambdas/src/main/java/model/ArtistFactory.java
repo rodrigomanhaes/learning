@@ -3,19 +3,28 @@ package model;
 import model.Artist;
 
 public class ArtistFactory {
+    private static Artist nirvana, theBeatles, engenheirosDoHawaii;
+
     public static Artist nirvana() {
-        return create("Nirvana", "Seattle", "Kurt Cobain", "Dave Grohl",
-                "Krist Novoselic");
+        if (nirvana == null)
+            nirvana = create("Nirvana", "Seattle", "Kurt Cobain", "Dave Grohl",
+                             "Krist Novoselic");
+        return nirvana;
     }
 
     public static Artist theBeatles() {
-        return create("The Beatles", "Liverpool", "John Lennon",
-                "Paul McCartney", "George Harrison", "Ringo Starr");
+        if (theBeatles == null)
+            theBeatles = create("The Beatles", "Liverpool", "John Lennon",
+                                "Paul McCartney", "George Harrison",
+                                "Ringo Starr");
+        return theBeatles;
     }
 
     public static Artist engenheirosDoHawaii() {
-        return create("Engenheiros do Hawaii", "Porto Alegre",
+        if (engenheirosDoHawaii == null)
+          engenheirosDoHawaii = create("Engenheiros do Hawaii", "Porto Alegre",
                 "Humberto Gessinger", "Augusto Licks", "Carlos Maltz");
+        return engenheirosDoHawaii;
     }
 
     private static Artist create(final String name, final String origin,
