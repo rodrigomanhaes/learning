@@ -3,7 +3,10 @@ package model;
 import model.Artist;
 
 public class ArtistFactory {
-    private static Artist nirvana, theBeatles, engenheirosDoHawaii;
+    private static Artist nirvana;
+    private static Artist theBeatles;
+    private static Artist engenheirosDoHawaii;
+    private static Artist aliceInChains;
 
     public static Artist nirvana() {
         if (nirvana == null)
@@ -25,6 +28,13 @@ public class ArtistFactory {
           engenheirosDoHawaii = create("Engenheiros do Hawaii", "Porto Alegre",
                 "Humberto Gessinger", "Augusto Licks", "Carlos Maltz");
         return engenheirosDoHawaii;
+    }
+
+    public static Artist aliceInChains() {
+        if (aliceInChains == null)
+            aliceInChains = create("Alice In Chains", "Seattle", "Layne Staley",
+                "Jerry Cantrell", "Mike Starr", "Sean Kinney");
+        return aliceInChains;
     }
 
     private static Artist create(final String name, final String origin,
